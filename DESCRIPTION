@@ -1,0 +1,13 @@
+Package: C4Estimation
+Type: Package
+Title: Estimate C4 photosynthesis parameters using ACi curve
+Version: 0.1.0
+Author: Haoran Zhou
+Maintainer: Haoran Zhou <zhouhaoran06@gmail.com>
+Description: The package provide methods to estimate photosynthesis parameters (Vcmax,J,Rd,gm and Vpmax) for C4 species using the gas exchange measurement (A_Ci curve) and C4 photosynthesis model to do nonlinear curve fitting. The package provided different options of estimation methods based on different fitting procedures (Sharkey et al. (2007) or Yin et al. (2011)) and different C4 photosynthesis models (with carbonic anhydrase process or carbonic anhydrase process). The package also provides the option to alter the temperature response parameters for photosynthetic parameters. The package is based on Zhou et al. (2019) ("Deriving C4 photosynthesis parameters by fitting intensive A/Ci curves").
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+NeedsCompilation: no
+Packaged: 2018-12-25 20:05:38 UTC; haoranzhou
